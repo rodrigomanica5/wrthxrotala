@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.backgroundContainer {
+    background-color: #D8CFC3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    p {
+        text-align: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 10px;
+        color: #585858;
+        opacity: 0.5;
+    }
+}
+
+.itemListContainer {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+    z-index: 1;
+    width: 334px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(147.68deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.16) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(12.5px);
+    border-radius: 20px;
+
+    img {
+        width: 113.14px;
+        height: 72px;
+    }
+
+    h3 {
+        text-align: center;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 20px;
+        line-height: 26px;
+        color: #474747;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #474747;
+        opacity: 0.7;
+    }
+}
+
+.productShowcase {
+    width: 335px;
+    height: 367.16px;
+}
+
+.buttonTikTok {
+    z-index: 1;
+    width: 334px;
+    height: 51px;
+    background-color: #474747;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    p {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+}
+
+.buttonDetail {
+    @extend .buttonTikTok;
+    background-color: transparent;
+    border: 1px solid #474747;
+
+    p {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #474747;
+    }
+}
+
+.itemDetailContainer {
+    width: 390px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(147.68deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.16) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(15px);
+
+    h3 {
+        text-align: center;
+        font-family: 'IBM Plex Serif', serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31.2px;
+        color: #474747;
+    }
+
+    p {
+        text-align: center;
+        width: 342px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #474747;
+    }
+}
+
+.returnContainer {
+    width: 100%;
+    padding: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    img {
+        margin-right: 9px;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        color: #474747;
+    }
+}
+
+.socialMediaContainer {
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desktopViewContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .desktopWarningMessage {
+        height: 70vh;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            padding: 3vh 0vh;
+            text-align: center;
+            font-family: 'IBM Plex Serif', serif;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            color: #474747;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 130%;
+            color: #474747;
+        }
+    }
+
+    .desktopWrthLogo {
+        padding-bottom: 5vh;
+    }
+}
