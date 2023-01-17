@@ -126,6 +126,7 @@
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+  opacity: 1;
 }
 
 .buttonDetail {
@@ -139,6 +140,7 @@
   font-size: 18px;
   line-height: 23px;
   color: #474747;
+  opacity: 1;
 }
 
 .itemDetailContainer {
