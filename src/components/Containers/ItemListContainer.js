@@ -7,8 +7,10 @@ function ItemListContainer() {
   return (
     <div className='itemListContainer'>
       <Card />
-      <ButtonTikTok />
-      <ButtonDetail />
+      <div className='buttonsContainer'>
+        <ButtonTikTok />
+        <ButtonDetail />
+      </div>
     </div>
   )
 }
