@@ -9,6 +9,7 @@
 
 .backgroundContainer {
   background-color: #D8CFC3;
+  width: 100%;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,8 +52,8 @@
 
 .card {
   z-index: 1;
-  width: 334px;
-  height: 592px;
+  width: 85.64%;
+  height: 70.14%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,7 +76,7 @@
 }
 
 .card img {
-  width: 113.14px;
+  width: 33.87%;
   height: 72px;
 }
 
@@ -98,14 +99,14 @@
 }
 
 .productShowcase {
-  width: 335px;
-  height: 367.16px;
+  width: 100%;
+  height: 62.02%;
 }
 
 .buttonTikTok, .buttonDetail {
   z-index: 1;
-  width: 334px;
-  height: 51px;
+  width: 85.64%;
+  height: 6.04%;
   background-color: #474747;
   border-radius: 100px;
   display: -webkit-box;
@@ -144,8 +145,8 @@
 }
 
 .itemDetailContainer {
-  width: 390px;
-  height: 100vh;
+  width: 100%;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
