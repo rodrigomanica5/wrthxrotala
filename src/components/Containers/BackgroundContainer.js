@@ -32,7 +32,7 @@ function BackgroundContainer({ children }) {
                     </div>
                     : <DesktopView />
             }
-            <p>Copyright © 2022 Todos los Derechos Reservados</p>
+            <p className='copyright'>Copyright © 2022 Todos los Derechos Reservados</p>
         </div>
     )
 }
