@@ -8,7 +8,7 @@ function BackgroundContainer({ children }) {
     useEffect(() => {
 
         const checkIsMobile = () => {
-            if (window.visualViewport.width < 552) {
+            if (window.visualViewport.width < 900) {
                 setIsMobile(true)
             } else {
                 setIsMobile(false)

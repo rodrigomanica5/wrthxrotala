@@ -233,3 +233,88 @@
         padding-bottom: 5vh;
     }
 }
+
+.tiktokContainer {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trendingTitle {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #474747;
+    text-align: center;
+}
+
+.trendingDate {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #474747;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.playlistTable {
+    width: 87.69%;
+    height: auto;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(147.68deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.16) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(12.5px);
+    border-radius: 20px;
+}
+
+.songCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 16px 0px;
+
+    img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .songDetails {
+        margin-left: 12px;
+    }
+
+    .songName {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: #474747;
+    }
+
+    .songArtist {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #474747;
+        opacity: 0.7;
+    }
+
+    .songRank {
+        @extend .songArtist;
+        margin-right: 20px;
+    }
+}
+
+.source {
+    @extend .songArtist;
+}

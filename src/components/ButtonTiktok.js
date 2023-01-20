@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function ButtonTikTok() {
   return (
-    <Link to={'/tendencias'} className='buttonTikTok'>
+    <Link to={'/trends'} className='buttonTikTok'>
       <p>Ver tendencias en Tik Tok</p>
     </Link>
   )

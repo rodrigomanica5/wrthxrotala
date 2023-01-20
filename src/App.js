@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import BackgroundContainer from './components/Containers/BackgroundContainer';
-import ItemListContainer from './components/Containers/ItemListContainer';
-import TikTokContainer from './components/Containers/TikTokContainer';
+import ItemListContainer from './components/containers/ItemListContainer'
+import TikTokContainer from './components/containers/TikTokContainer';
 import ItemDetail from './components/ItemDetail';
+import BackgroundContainer from './components/containers/BackgroundContainer'
 import './styles/styles.css'
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <BackgroundContainer>
         <Routes>
           <Route path={'/'} element={<ItemListContainer />} />
-          <Route path={'/tendencias'} element={<TikTokContainer />} />
-          <Route path={'/detail'} element={<ItemDetail />} />
+          <Route path={'/trends'} element={<TikTokContainer />} />
+          <Route path={'/detail'} element={<ItemDetail/>} />
         </Routes>
       </BackgroundContainer>
     </BrowserRouter>

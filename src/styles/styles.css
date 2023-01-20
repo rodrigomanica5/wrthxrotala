@@ -319,4 +319,111 @@
 .desktopViewContainer .desktopWrthLogo {
   padding-bottom: 5vh;
 }
+
+.tiktokContainer {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trendingTitle {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #474747;
+  text-align: center;
+}
+
+.trendingDate {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #474747;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.playlistTable {
+  width: 87.69%;
+  height: auto;
+  padding: 8px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background: linear-gradient(147.68deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.16) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  -webkit-backdrop-filter: blur(12.5px);
+          backdrop-filter: blur(12.5px);
+  border-radius: 20px;
+}
+
+.songCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 16px 0px;
+}
+
+.songCard img {
+  width: 64px;
+  height: 64px;
+}
+
+.songCard .songDetails {
+  margin-left: 12px;
+}
+
+.songCard .songName {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #474747;
+}
+
+.songCard .songArtist, .songCard .songRank, .songCard .source {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #474747;
+  opacity: 0.7;
+}
+
+.songCard .songRank {
+  margin-right: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
