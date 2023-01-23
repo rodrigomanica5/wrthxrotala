@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ItemListContainer from './components/containers/ItemListContainer'
+import ItemListContainer from './components/containers/ItemListContainer';
 import TikTokContainer from './components/containers/TikTokContainer';
 import ItemDetail from './components/ItemDetail';
-import BackgroundContainer from './components/containers/BackgroundContainer'
-import './styles/styles.css'
+import BackgroundContainer from './components/containers/BackgroundContainer';
+import './styles/styles.css';
 
 function App() {
   return (
