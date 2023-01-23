@@ -15,10 +15,10 @@ function BackgroundContainer({ children }) {
             }
         }
 
-        window.addEventListener('resize', checkIsMobile)
+        window.addEventListener('load', checkIsMobile)
 
         return () => {
-            window.removeEventListener('resize', checkIsMobile)
+            window.removeEventListener('load', checkIsMobile)
         }
 
     }, [])
