@@ -3,7 +3,7 @@ import DesktopView from './DesktopView'
 
 function BackgroundContainer({ children }) {
 
-    const [isMobile, setIsMobile] = useState(true)
+    const [isMobile, setIsMobile] = useState(null)
 
     useEffect(() => {
 
