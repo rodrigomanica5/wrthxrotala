@@ -1,7 +1,7 @@
 import React from 'react'
-import ButtonDetail from '../ButtonDetail'
-import ButtonTikTok from '../ButtonTiktok'
-import Card from '../Card'
+import ButtonDetail from '../components/ButtonDetail'
+import ButtonTikTok from '../components/ButtonTiktok'
+import Card from '../components/Card'
 
 function ItemListContainer() {
   return (

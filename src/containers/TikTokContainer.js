@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import { db } from '../../firebase/firebase'
+import { db } from '../firebase/firebase'
 import { getDocs, collection, query } from 'firebase/firestore'
-import Playlist from '../Playlist'
-import Return from '../Return'
-import SocialMedia from '../SocialMedia'
+import Playlist from '../components/Playlist'
+import Return from '../components/Return'
+import SocialMedia from '../components/SocialMedia'
 
 function TikTokContainer() {
 
