@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ItemListContainer from './components/containers/ItemListContainer';
+// import ItemListContainer from './components/containers/ItemListContainer';
 import TikTokContainer from './components/containers/TikTokContainer';
 import ItemDetail from './components/ItemDetail';
 import BackgroundContainer from './components/containers/BackgroundContainer';
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <BackgroundContainer>
         <Routes>
-          <Route path={'/'} element={<ItemListContainer />} />
+          {/* <Route path={'/'} element={<ItemListContainer />} /> */}
           <Route path={'/trends'} element={<TikTokContainer />} />
           <Route path={'/detail'} element={<ItemDetail/>} />
         </Routes>
