@@ -3,22 +3,22 @@ import DesktopView from './DesktopView'
 
 function BackgroundContainer({ children }) {
 
-    const [isMobile, setIsMobile] = useState(null)
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768)
 
     useEffect(() => {
 
         const checkIsMobile = () => {
-            if (window.visualViewport.width < 900) {
+            if (window.innerWidth <= 768) {
                 setIsMobile(true)
             } else {
                 setIsMobile(false)
             }
         }
 
-        window.addEventListener('load', checkIsMobile)
+        window.addEventListener('resize', checkIsMobile)
 
         return () => {
-            window.removeEventListener('load', checkIsMobile)
+            window.removeEventListener('resize', checkIsMobile)
         }
 
     }, [])
