@@ -2,10 +2,10 @@ import React from 'react'
 
 function SocialMedia() {
     return (
-        <div className='socialMediaContainer'>
-            <img src='/assets/img/Instagram.svg' alt='Instagram' />
-            <img src='/assets/img/Twitter.svg' alt='Twitter' />
-            <img src='/assets/img/TikTok.svg' alt='TikTok' />
+        <div className='buttonsContainer'>
+            <a href='https://www.google.com/' className='buttonDetail'>
+                <p>Nuestras Redes</p>
+            </a>
         </div>
     )
 }

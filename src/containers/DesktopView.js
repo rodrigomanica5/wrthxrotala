@@ -10,7 +10,7 @@ function DesktopView() {
             </div>
 
             <div className='desktopWrthLogo'>
-                <img src='/assets/img/LogoWrthBlooming.svg' alt='Logo WRTH' />
+                <img src='/assets/img/LogoWrthBlooming.png' alt='Logo WRTH' />
             </div>
         </div>
     )

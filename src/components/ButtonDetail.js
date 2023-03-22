@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ButtonDetail() {
+function ButtonDetail({productId}) {
     return (
-        <Link to={'/detail'} className='buttonDetail'>
+        <Link to={`/detail/${productId}`} className='buttonDetail'>
             <p>Leer Descripción</p>
         </Link>
     )
