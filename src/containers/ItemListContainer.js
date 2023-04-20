@@ -13,7 +13,7 @@ function ItemListContainer() {
 
   useEffect(() => {
 
-    const promise = fetch("https://mocki.io/v1/6fe576bd-b939-4cdf-ac6b-127e6e9d150f")
+    const promise = fetch("https://mocki.io/v1/6e2d5081-2ae3-49a8-a523-2f9cf0d5a251")
 
     promise.then(data => data.json())
     .then((array) => {
@@ -21,8 +21,6 @@ function ItemListContainer() {
     })
 
   }, [productId])
-
-  console.log(product);
 
   return (
     <div className='itemListContainer'>

@@ -12,7 +12,7 @@ function ItemDetail() {
 
   useEffect(() => {
     
-    const promise = fetch("https://mocki.io/v1/6fe576bd-b939-4cdf-ac6b-127e6e9d150f")
+    const promise = fetch("https://mocki.io/v1/6e2d5081-2ae3-49a8-a523-2f9cf0d5a251")
     
     promise.then(data => data.json())
     .then((array) => {
@@ -21,8 +21,8 @@ function ItemDetail() {
 
   }, [productId])
 
-  if (productId == "017yx2") {
-  }
+  // if (productId == "017yx2") {
+  // }
 
   return (
     <div className='itemDetailContainer'>
@@ -36,7 +36,7 @@ function ItemDetail() {
       </div>
       <div className='descriptionContainer'>
         <h3>{product.name}</h3>
-        <p className='productDescription'>Here goes the description of this corset. Care for fiber: at least 50% ecologically grown cotton. We use the Join Life label for items that have been produced using technologies and raw materials that help us reduce the environmental impact.</p>
+        <p className='productDescription'>{product.description}</p>
       </div>
       <SocialMedia />
     </div>

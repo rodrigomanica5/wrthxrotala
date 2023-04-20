@@ -3,7 +3,7 @@ import React from 'react'
 function SocialMedia() {
     return (
         <div className='buttonsContainer'>
-            <a href='https://www.google.com/' className='buttonDetail'>
+            <a href='https://linktr.ee/wrthxrotala' className='buttonDetail'>
                 <p>Nuestras Redes</p>
             </a>
         </div>
