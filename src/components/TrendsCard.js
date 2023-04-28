@@ -1,39 +1,44 @@
-import React from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import carouselArray from '../data.json'
+import React, { useEffect, useState } from 'react'
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 function TrendsCard() {
 
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
+    const [data, setData] = useState([])
 
-    return (
+    useEffect(() => {
+        fetch("/assets/data/data.json")
+            .then((data) => data.json())
+            .then((array) => setData(array.map((element, index) => {
+                return <div className='card trendsCard' key={index}>
+                    <img src={element.pictureURL} alt={element.name} width={332} height={399} />
+                    <h4>{element.name}</h4>
+                    <p>{element.description}</p>
+                </div>
+            })))
+}, [])
 
-        // <div className='card'>
-            <Slider {...settings}>
-                {/* <div className='card'>Hola</div> */}
-                {/* <div className='card'>Chau</div> */}
-                {/* <div className='card'>Chau</div> */}
-            </Slider>
-        // </div>
-    )
+const responsive = {
+    0: {
+        items: 1,
+    },
+    568: {
+        items: 2,
+    }
+};
+
+return (
+    <AliceCarousel
+        items={data}
+        responsive={responsive}
+        autoPlayInterval={3000}
+        autoPlayDirection="rtl"
+        autoPlay={true}
+        fadeOutAnimation={true}
+        mouseTrackingEnabled={true}
+    />
+);
 }
 
-export default TrendsCard
+export default TrendsCard;
 

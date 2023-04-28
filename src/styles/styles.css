@@ -350,4 +350,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.trendsCard {
+  margin-left: auto;
+  margin-right: auto;
+}
 /*# sourceMappingURL=styles.css.map */
