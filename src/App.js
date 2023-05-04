@@ -12,8 +12,8 @@ function App() {
       <BackgroundContainer>
         <Routes>
           <Route path={'/'} element={<HomeContainer/>} />
-          <Route path={'/corset/:productId'} element={<ItemListContainer />} />
-          <Route path={'/t-shirt/:productId'} element={<ItemListContainer />} />
+          <Route path={'/item/:productId'} element={<ItemListContainer />} />
+          {/* <Route path={'/t-shirt/:productId'} element={<ItemListContainer />} /> */}
           <Route path={'/trends/:productId'} element={<TrendsContainer />} />
           <Route path={'/detail/:productId'} element={<ItemDetail />} />
         </Routes>

@@ -35,8 +35,24 @@
   opacity: 0.5;
 }
 
+a {
+  text-decoration: none;
+}
+
+.homeOption {
+  width: 100%;
+  height: 31vh;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  line-height: 31vh;
+  color: #474747;
+}
+
 .itemListContainer, .tshirtContainer {
-  height: 95vh;
+  height: auto;
   margin-top: 7vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -110,6 +126,14 @@
   opacity: 0.7;
 }
 
+.card .tooPerfectTitle h3 {
+  color: #FFFFFF;
+}
+
+.card .tooPerfectTitle p {
+  color: #FFFFFF;
+}
+
 .buttonsContainer {
   z-index: 1;
   width: 85.64%;
@@ -127,6 +151,7 @@
 }
 
 .buttonTrends, .buttonDetail, .buttonLinkTree {
+  height: 60px;
   background-color: #474747;
   border-radius: 100px;
   display: -webkit-box;
@@ -142,7 +167,7 @@
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin: 20px 0px 20px 0px;
 }
 
 .buttonTrends p, .buttonDetail p, .buttonLinkTree p {
@@ -157,7 +182,7 @@
 .buttonDetail, .buttonLinkTree {
   background-color: transparent;
   border: 1px solid #474747;
-  margin-bottom: 0;
+  margin: 0px 0px 20px 0px;
 }
 
 .buttonDetail p, .buttonLinkTree p {
@@ -172,7 +197,6 @@
 .buttonLinkTree {
   height: 50px;
   border-color: #292929;
-  margin-bottom: 20px;
 }
 
 .buttonLinkTree p {
@@ -378,6 +402,7 @@
 }
 
 .trendsHeader h3 {
+  color: #292929;
   font-family: 'IBM Plex Serif', serif;
   font-size: 20px;
   line-height: 26px;
@@ -408,6 +433,7 @@
 }
 
 .trendsCard h4 {
+  color: #292929;
   padding-left: 15px;
   margin-bottom: 7px;
   font-family: 'IBM Plex Serif', serif;
