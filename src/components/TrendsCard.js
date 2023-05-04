@@ -31,7 +31,7 @@ return (
     <AliceCarousel
         items={data}
         responsive={responsive}
-        autoPlayInterval={4000}
+        autoPlayInterval={15000}
         autoPlayDirection="rtl"
         autoPlay={true}
         fadeOutAnimation={true}
