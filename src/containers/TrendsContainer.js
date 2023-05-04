@@ -11,7 +11,11 @@ function TrendsContainer() {
   return (
     <div className='trendsContainer'>
       <Return productURL={productId} />
-      <TrendsCard/>
+      <div className='trendsHeader'>
+        <h3>Inspiración</h3>
+        <p>#Inspo, #Tendencias</p>
+      </div>
+      <TrendsCard />
       <SocialMedia />
     </div>
   )

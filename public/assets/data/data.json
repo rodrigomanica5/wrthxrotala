@@ -1,38 +1,38 @@
 [
     {
         "name": "Outfit Casual",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
-        "pictureURL": "/assets/img/casualoutfit1.jpg",
-        "influencer": ""
-    },
-    {
-        "name": "Outfit Casual",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
+        "description": "Ideal para una salida a la tarde con tus amigas, y lucir un estilo diferente que las diferencia de las demas.",
         "pictureURL": "/assets/img/casualoutfit2.jpg",
         "influencer": ""
     },
     {
-        "name": "Outfit de Trabajo",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
-        "pictureURL": "/assets/img/workoutfit1.jpg",
+        "name": "Outfit Casual",
+        "description": "Sal a tomarte un cafe con este outfit, seguramente te vayan a pedir mas de una vez tu Instagram.",
+        "pictureURL": "/assets/img/casualoutfit1.jpg",
         "influencer": ""
     },
     {
         "name": "Outfit de Trabajo",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
+        "description": "Empoderada, poderosa y con mucho estilo. Usa este corset para ir a trabajar y seguramente terminas siendo la CEO.",
         "pictureURL": "/assets/img/workoutfit2.jpg",
         "influencer": ""
     },
     {
-        "name": "Outfit de Fiesta",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
-        "pictureURL": "/assets/img/partyoutfit1.jpg",
+        "name": "Outfit de Trabajo",
+        "description": "Outfit sofisticado y elegante a la vez. Esperamos que tengas muchas cosas para decir, por que todos te van a estar mirando en la reunion.",
+        "pictureURL": "/assets/img/workoutfit1.jpg",
         "influencer": ""
     },
     {
         "name": "Outfit de Fiesta",
-        "description": "Breve descripción del outfit. Para qué lo usaría. Segunda línea acá abajo.",
+        "description": "Luce radiante usando este corset de noche... Mientras todas visten de negro, vos dale vida a la fiesta.",
         "pictureURL": "/assets/img/partyoutfit2.jpg",
+        "influencer": ""
+    },
+    {
+        "name": "Outfit de Fiesta",
+        "description": "Diferente y unica, asi te veras en medio de la pista con este outfit. Algo te podemos asegurar... mas de uno se te va a acercar.",
+        "pictureURL": "/assets/img/partyoutfit1.jpg",
         "influencer": ""
     }
 ]

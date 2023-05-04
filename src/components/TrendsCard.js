@@ -11,7 +11,7 @@ function TrendsCard() {
             .then((data) => data.json())
             .then((array) => setData(array.map((element, index) => {
                 return <div className='card trendsCard' key={index}>
-                    <img src={element.pictureURL} alt={element.name} width={332} height={399} />
+                    <img src={element.pictureURL} alt={element.name} />
                     <h4>{element.name}</h4>
                     <p>{element.description}</p>
                 </div>
@@ -31,7 +31,7 @@ return (
     <AliceCarousel
         items={data}
         responsive={responsive}
-        autoPlayInterval={3000}
+        autoPlayInterval={4000}
         autoPlayDirection="rtl"
         autoPlay={true}
         fadeOutAnimation={true}

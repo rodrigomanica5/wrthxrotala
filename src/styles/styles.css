@@ -126,7 +126,7 @@
           justify-content: space-between;
 }
 
-.buttonTrends, .buttonDetail {
+.buttonTrends, .buttonDetail, .buttonLinkTree {
   background-color: #474747;
   border-radius: 100px;
   display: -webkit-box;
@@ -145,7 +145,7 @@
   margin-bottom: 10px;
 }
 
-.buttonTrends p, .buttonDetail p {
+.buttonTrends p, .buttonDetail p, .buttonLinkTree p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -154,19 +154,29 @@
   opacity: 1;
 }
 
-.buttonDetail {
+.buttonDetail, .buttonLinkTree {
   background-color: transparent;
   border: 1px solid #474747;
   margin-bottom: 0;
 }
 
-.buttonDetail p {
+.buttonDetail p, .buttonLinkTree p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
   color: #474747;
   opacity: 1;
+}
+
+.buttonLinkTree {
+  height: 50px;
+  border-color: #292929;
+  margin-bottom: 20px;
+}
+
+.buttonLinkTree p {
+  color: #292929;
 }
 
 .itemDetailContainer {
@@ -335,7 +345,8 @@
 }
 
 .trendsContainer {
-  height: 90vh;
+  margin-top: 7vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,8 +362,68 @@
           align-items: center;
 }
 
+.trendsHeader {
+  width: 85.64%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 15px 0px 17px 0px;
+}
+
+.trendsHeader h3 {
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.trendsHeader p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  color: #292929;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
 .trendsCard {
   margin-left: auto;
   margin-right: auto;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.trendsCard img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-bottom: 17px;
+}
+
+.trendsCard h4 {
+  padding-left: 15px;
+  margin-bottom: 7px;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.trendsCard p {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #292929;
+  opacity: 0.7;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */
