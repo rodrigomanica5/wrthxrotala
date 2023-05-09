@@ -1,25 +1,25 @@
 [
     {
         "name": "Outfit Casual",
-        "description": "Ideal para una salida a la tarde con tus amigas, y lucir un estilo diferente que las diferencia de las demas.",
+        "description": "Ideal para una salida a la tarde con tus amigas, y lucir un estilo diferente que las diferencia de las demás.",
         "pictureURL": "/assets/img/casualoutfit2.jpg",
         "influencer": ""
     },
     {
         "name": "Outfit Casual",
-        "description": "Sal a tomarte un cafe con este outfit, seguramente te vayan a pedir mas de una vez tu Instagram.",
+        "description": "Sal a tomarte un café con este outfit, seguramente te van a pedir más de una vez tu Instagram.",
         "pictureURL": "/assets/img/casualoutfit1.jpg",
         "influencer": ""
     },
     {
         "name": "Outfit de Trabajo",
-        "description": "Empoderada, poderosa y con mucho estilo. Usa este corset para ir a trabajar y seguramente terminas siendo la CEO.",
+        "description": "Empoderada, poderosa y con mucho estilo. Usa este corsé para ir a trabajar y seguramente terminarás siendo la CEO.",
         "pictureURL": "/assets/img/workoutfit2.jpg",
         "influencer": ""
     },
     {
         "name": "Outfit de Trabajo",
-        "description": "Outfit sofisticado y elegante a la vez. Esperamos que tengas muchas cosas para decir, por que todos te van a estar mirando en la reunion.",
+        "description": "Outfit sofisticado y elegante a la vez. Esperamos que tengas muchas cosas que decir, porque todos te van a estar mirando en la reunión.",
         "pictureURL": "/assets/img/workoutfit1.jpg",
         "influencer": ""
     },
@@ -31,7 +31,7 @@
     },
     {
         "name": "Outfit de Fiesta",
-        "description": "Diferente y unica, asi te veras en medio de la pista con este outfit. Algo te podemos asegurar... mas de uno se te va a acercar.",
+        "description": "Diferente y única, así te verás en medio de la pista con este outfit. Algo te podemos asegurar... más de uno se te va a acercar.",
         "pictureURL": "/assets/img/partyoutfit1.jpg",
         "influencer": ""
     }
